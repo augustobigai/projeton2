@@ -2,21 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { routing } from './app.routing';
-import { AlocacaoComponent } from './alocacao/alocacao.component';
-import { TarefaComponent } from './tarefa/tarefa.component';
-import { PessoaComponent } from './pessoa/pessoa.component';
+import { AppRoutingModule } from './app.routing.module';
+import { AlocacaoModule } from './alocacao/alocacao.module';
+import { PessoaModule } from './pessoa/pessoa.module';
+import { TarefaModule } from './tarefa/tarefa.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AlocacaoComponent,
-    TarefaComponent,
-    PessoaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    AlocacaoModule,
+    PessoaModule,
+    TarefaModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
