@@ -1,9 +1,13 @@
 <nav>
-  <div>
-    <li routerLinkActive="active"><a routerLink="/pessoa">Pessoa</a></li>
-    <li routerLinkActive="active"><a routerLink="/tarefa">Tarefa</a></li>
-    <li routerLinkActive="active"><a routerLink="/alocacao">Alocação</a></li>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo right">Projeto N2</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li routerLinkActive="active"><a routerLink="/pessoa">Pessoa</a></li>
+      <li routerLinkActive="active"><a routerLink="/tarefa">Tarefa</a></li>
+      <li routerLinkActive="active"><a routerLink="/alocacao">Alocação</a></li>
+    </ul>
   </div>
 </nav>
+
 
 <router-outlet></router-outlet>

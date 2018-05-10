@@ -23,9 +23,17 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/augusto.bigai/projetoN2/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/augusto.bigai/projetoN2/node_modules/bootstrap/dist/js/bootstrap.js",
+              "C:/Users/augusto.bigai/projetoN2/node_modules/jquery/dist/jquery.js",
+              "C:/Users/augusto.bigai/projetoN2/node_modules/tether/dist/js/tether.js",
+              "C:/Users/augusto.bigai/projetoN2/node_modules/popper.js/dist/popper.js",
+              "C:/Users/augusto.bigai/projetoN2/node_modules/hammerjs/hammer.js",
+              "C:/Users/augusto.bigai/projetoN2/node_modules/materialize-css/dist/js/materialize.js"            
+            ]
           },
           "configurations": {
             "production": {
