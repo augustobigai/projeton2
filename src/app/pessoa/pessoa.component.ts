@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
     styleUrls: ['./pessoa.component.css']
 })
 
+
+
 export class PessoaComponent {
 
 }

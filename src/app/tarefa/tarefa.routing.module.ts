@@ -4,7 +4,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { TarefaComponent } from "./tarefa.component";
 
 const tarefaRoutes: Routes = [
-    { path:'tarefa', component: TarefaComponent }
+    { path:'', component: TarefaComponent }
 ]
 
 @NgModule({

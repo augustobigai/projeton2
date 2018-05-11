@@ -2,15 +2,10 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
-import { PessoaComponent } from './pessoa/pessoa.component';
-import { TarefaComponent } from './tarefa/tarefa.component';
-import { AlocacaoComponent } from './alocacao/alocacao.component';
-
 const appRoutes: Routes = [
-    { path:'', component: PessoaComponent },
-    { path:'pessoa', component: PessoaComponent },
-    { path:'tarefa', component: TarefaComponent },
-    { path:'alocacao', component: AlocacaoComponent }
+    { path:'pessoa', loadChildren: './pessoa/pessoa.module#PessoaModule' },
+    { path: 'alocacao', loadChildren: './alocacao/alocacao.module#AlocacaoModule' },
+    { path: 'tarefa', loadChildren: './tarefa/tarefa.module#TarefaModule' }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
