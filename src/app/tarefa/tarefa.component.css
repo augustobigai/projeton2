@@ -1,0 +1,18 @@
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    padding: .5rem 0 .2rem 0;
+    resize: none;
+    min-height: 2rem;
+}
+
+.date{
+    width: 100%;
+}
+.tamanho{
+    position: relative;
+    height: 100%;
+}
+
+.b-violet {
+    background-color: blueviolet;
+}

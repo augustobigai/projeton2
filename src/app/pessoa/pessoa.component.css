@@ -1,0 +1,15 @@
+
+.pos-input {
+position:relative;
+left:50%;
+width:500px;
+height:auto;
+margin-left:-250px;
+}
+
+.pos-button-gravar{
+position: relative;
+left:100%;
+margin-left: -120px;
+}
+
