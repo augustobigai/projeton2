@@ -23,16 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "/home/bigai/Facul/projeton2/node_modules/bootstrap/dist/css/bootstrap.css",
-              "/home/bigai/Facul/projeton2/src/styles.css"
+                "./src/styles.css"
             ],
             "scripts": [
-              "/home/bigai/Facul/projeton2/node_modules/bootstrap/dist/js/bootstrap.js",
-              "/home/bigai/Facul/projeton2/node_modules/jquery/dist/jquery.js",
-              "/home/bigai/Facul/projeton2/node_modules/tether/dist/js/tether.js",
-              "/home/bigai/Facul/projeton2/node_modules/popper.js/dist/popper.js",
-              "/home/bigai/Facul/projeton2/node_modules/hammerjs/hammer.js",
-              "/home/bigai/Facul/projeton2/node_modules/materialize-css/dist/js/materialize.js"
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/hammerjs/hammer.js",
+              "./node_modules/materialize-css/dist/js/materialize.js"    
             ]
           },
           "configurations": {

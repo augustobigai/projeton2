@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core'
 
-@Component ({
-    selector: 'tarefa-component',
-    templateUrl: 'tarefa.component.html',
-    styleUrls: ['tarefa.component.css']
+@Component({
+  selector: 'app-tarefa',
+  templateUrl: './tarefa.component.html',
+  styleUrls: ['./tarefa.component.css']
 })
-
 export class TarefaComponent {
-    
+
+  constructor() {
+
+   }
+
 }
